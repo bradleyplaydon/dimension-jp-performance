@@ -1594,7 +1594,16 @@
             color: aliceblue;
 			
 		}
-#page3 
+#page3 .major {
+    
+    margin: auto;
+    width: 31%;
+    
+    padding: 10px;
+    border-bottom: solid 1px #ffffff;
+		
+			
+}
 
 #page4 {
     background-image: url("../../images/bg.jpg");
@@ -1602,6 +1611,14 @@
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
+}
+#page4 .major {
+    
+    margin: auto;
+    padding: 10px;
+    border-bottom: solid 1px #ffffff;
+		
+			
 }
 
 #page5
