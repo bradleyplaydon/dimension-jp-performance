@@ -1553,6 +1553,12 @@
 
 		}
 
+#page1 .navagation {
+    
+    color: red;
+}
+
+
 /* Page 2*/
 #page2  {
     
@@ -1573,6 +1579,22 @@
 		
 			
 }
+#page3 {
+    
+			
+			background-image: url("../../images/bg.jpg");
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			z-index: 1;
+            
+		}
+#page3 .copyright  {
+    
+            color: aliceblue;
+			
+		}
+#page3 
 
 #page4 {
     background-image: url("../../images/bg.jpg");
@@ -1582,6 +1604,14 @@
 			z-index: 1;
 }
 
+#page5
+{
+    background-image: url("../../images/bg.jpg");
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			z-index: 1;
+}
 /* Footer */
 
 	#footer {
