@@ -70,6 +70,11 @@
 		}
 
 	}
+    
+span {
+    margin-bottom: 200px;
+    
+}
 
 	body {
 		background-color: #fff000;
@@ -580,6 +585,7 @@
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+        
 	}
 
 		.icon:before {
@@ -589,6 +595,7 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
+            
 		}
 
 		.icon > .label {
@@ -689,20 +696,25 @@
 		list-style: decimal;
 		margin: 0 0 2rem 0;
 		padding-left: 1.25em;
+        color: aqua;
 	}
 
 		ol li {
 			padding-left: 0.25em;
-		}
+            color: aqua;
+
+}
 
 	ul {
 		list-style: disc;
 		margin: 0 0 2rem 0;
 		padding-left: 1em;
+        color: aqua;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+            color: aqua;
 		}
 
 		ul.alt {
@@ -724,11 +736,14 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+            color:  #39ff14;
 		}
 
 			ul.icons li {
 				display: inline-block;
 				padding: 0 0.75em 0 0;
+                color:  #39ff14;
+                
 			}
 
 				ul.icons li:last-child {
@@ -737,16 +752,18 @@
 
 				ul.icons li a {
 					border-radius: 100%;
-					box-shadow: inset 0 0 0 1px #ffffff;
+					box-shadow: inset 0 0 0 1px  #39ff14;
 					display: inline-block;
 					height: 2.25rem;
 					line-height: 2.25rem;
 					text-align: center;
 					width: 2.25rem;
+                    color: #39ff14;
 				}
 
 					ul.icons li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
+                        color: aqua;
 					}
 
 					ul.icons li a:active {
@@ -971,6 +988,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+        color: aqua;
 	}
 
 		input[type="submit"]:hover,
@@ -1093,7 +1111,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/dsc_8648.jpg");
+			background-image: url("../../images/background.jpeg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1205,10 +1223,11 @@
 			-ms-transition: opacity 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
-			margin-top: 20.5rem;
+			margin-top: 5.5rem;
+            
 		}
 
-			
+
 
 		#header > :first-child {
 			margin-top: 0;
@@ -1219,11 +1238,10 @@
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
-			border-radius: 100%;
+			
 		}
 
 			#header .logo .icon:before {
@@ -1232,10 +1250,11 @@
 
 		#header .content {
 			border-style: solid;
-			border-color: #ffffff;
+			border-color: #39ff14;
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
+            margin-bottom: 50px;
 		}
 
 			#header .content .inner {
@@ -1272,17 +1291,21 @@
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			border: solid 2px #32cd32;
 			border-radius: 4px;
+            color: aqua;
+            
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 2px #5cb85c;
+                
 			}
 
 				#header nav ul li:first-child {
 					border-left: 0;
+                    
 				}
 
 				#header nav ul li a {
@@ -1295,6 +1318,8 @@
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+                    color: #5cb85c;
+                    
 				}
 
 					#header nav ul li a:hover {
@@ -1402,7 +1427,7 @@
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #ffffff;
+						border-top: solid 1px indigo;
 					}
 
 						#header nav ul li:first-child {
@@ -1544,6 +1569,7 @@
 
 		}
 
+
 #page1 .navagation {
     
     color: red;
@@ -1554,26 +1580,28 @@
 #page2  {
     
 			
-			background-image: url("../../images/bg.jpg");
+		    background-image: url("../../images/Aboutusbg.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
+            
 		}
 #page2 .major {
     
     margin: auto;
     width: 25%;
-    
     padding: 10px;
-    border-bottom: solid 1px #ffffff;
+    
+    
+
 		
 			
 }
 #page3 {
     
 			
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/Aboutusbg.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1591,13 +1619,13 @@
     width: 31%;
     
     padding: 10px;
-    border-bottom: solid 1px #ffffff;
+   
 		
 			
 }
 
 #page4 {
-    background-image: url("../../images/bg.jpg");
+    background-image: url("../../images/Aboutusbg.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1614,11 +1642,36 @@
 
 #page5
 {
-    background-image: url("../../images/bg.jpg");
+    background-image: url("../../images/Aboutusbg.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
+}
+#page6 {
+     background-image: url("../../images/Aboutusbg.jpg");
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			z-index: 1;
+}
+#page6 .page-content {
+    color: #32cd32;
+    line-height: 5.5rem;
+    border-bottom: solid 2px #32cd32;
+    border-top: solid 2px #32cd32;
+    text-align: center;
+}
+#page6 .content  {
+    text-align: center;
+    
+}
+#page1 .carouselExampleControls
+{
+    margin-top: 100px;
+}
+#page1 .imgContainer {
+    float: left;
 }
 /* Footer */
 
@@ -1631,6 +1684,7 @@
 		max-width: 100%;
 		margin-top: 2rem;
 		text-align: center;
+        color: #39ff14;
 	}
 
 		#footer .copyright {
