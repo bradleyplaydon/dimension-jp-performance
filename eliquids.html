@@ -19,7 +19,7 @@
       <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/gallery-grid.css">
-    
+    <link rel="stylesheet" href="assets/css/ekko-lightbox.css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
 	</head>
    <body id="page6">
@@ -56,8 +56,10 @@
 								<h1 style="color: #32cd32; border-bottom: solid 5px #ffffff length;">E-Liquids</h1>
                             </div>
 <p class="page-description text-center" style="color: #32cd32;">Our E-liquids for sale</p>
-    <div class="page-content">
-      <div class="tz-gallery">
+            
+    
+                            <div class="page-content">
+   
         <div class="row">
 
             <div class="col-sm-6 col-md-4">
@@ -134,12 +136,12 @@
             </div>
         </div>
         </div>
-    </div>
-                            </div>
+                    </div>
 
-                          
-</header>
-</div>
+                
+
+<!-- Small modal -->
+                </header></div>
 <footer id="footer">
                         <ul class="icons">
 									<li><a href="https://twitter.com/LucidJVapestore" class="icon fa-twitter" style="color:#39ff14"><span class="label">Twitter</span></a></li>
@@ -166,10 +168,18 @@ Email: Jasonplaydon@aol.com</p>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script src="assets/js/ekko-lightbox.min.js"></script>
+<script src="assets/js/ekko-lightbox.js"></script>
+<script src="assets/js/ekko-lightbox.js.map"></script>
+<script src="assets/js/ekko-lightbox.min.js.map"></script>
 <script>
     baguetteBox.run('.tz-gallery');
 </script>        
-    
-
+    <script>
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+       </script>
 	</body>
 </html>
