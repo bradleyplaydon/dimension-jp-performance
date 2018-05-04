@@ -1222,7 +1222,7 @@ span {
 			-ms-transition: opacity 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
-			margin-top: 5.5rem;
+			margin-top: 10.5rem;
             
 		}
 
@@ -1253,7 +1253,7 @@ span {
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
-            margin-bottom: 50px;
+            margin-top: 50px;
 		}
 
 			#header .content .inner {
@@ -1269,10 +1269,11 @@ span {
 				max-height: 40rem;
 				overflow: hidden;
                 background-color: transparent;
+                
 			}
 
 				#header .content .inner > :last-child {
-					margin-bottom: 0;
+					margin-bottom: 10px;
 				}
 
 			#header .content p {
@@ -1287,23 +1288,25 @@ span {
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
-			margin-bottom: 0;
+			
 			list-style: none;
 			padding-left: 0;
-			border: solid 2px black;
-			border-radius: 4px;
+			
             color: aqua;
+            margin-top: -550px;
+            
             
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 2px black;
+				
                 
 			}
 
 				#header nav ul li:first-child {
 					border-left: 0;
+                    margin: 
                     
 				}
 
@@ -1317,16 +1320,17 @@ span {
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
-                    color: black;
+                    color:dimgrey;
+                    
                     
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: silver;
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: red;
 					}
 
 	
