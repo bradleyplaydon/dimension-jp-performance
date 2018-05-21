@@ -175,13 +175,14 @@ span {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #ffffff;
+			border-bottom: solid 1px black;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
+            
 		}
 
 	h1 {
@@ -585,6 +586,7 @@ span {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+        color: black;
         
 	}
 
@@ -696,12 +698,12 @@ span {
 		list-style: decimal;
 		margin: 0 0 2rem 0;
 		padding-left: 1.25em;
-        color: aqua;
+        color: black;
 	}
 
 		ol li {
 			padding-left: 0.25em;
-            color: aqua;
+            color: black;
 
 }
 
@@ -709,12 +711,12 @@ span {
 		list-style: disc;
 		margin: 0 0 2rem 0;
 		padding-left: 1em;
-        color: aqua;
+        color: black;
 	}
 
 		ul li {
 			padding-left: 0.5em;
-            color: aqua;
+            color: black;
 		}
 
 		ul.alt {
@@ -748,6 +750,7 @@ span {
 
 				ul.icons li:last-child {
 					padding-right: 0;
+                    color: black;
 				}
 
 				ul.icons li a {
@@ -763,7 +766,7 @@ span {
 
 					ul.icons li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
-                        color: #39ff14;
+                        color:  black;;
 					}
 
 					ul.icons li a:active {
@@ -988,7 +991,7 @@ span {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
-        color: aqua;
+        color: black;
 	}
 
 		input[type="submit"]:hover,
@@ -1131,7 +1134,7 @@ span {
 		}
 
 		body.is-loading #bg:before {
-			background-color: #000000;
+			background-color: white;
 		}
 
 /* Wrapper */
@@ -1430,7 +1433,7 @@ span {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px indigo;
+						border-top: solid 1px black;
 					}
 
 						#header nav ul li:first-child {
@@ -1571,6 +1574,7 @@ span {
 			}
 
 		}
+#main 
 
 
 #page1 .navagation {
@@ -1595,6 +1599,7 @@ span {
     margin: auto;
     width: 25%;
     padding: 10px;
+    color: black;
     
     
 
@@ -1665,9 +1670,37 @@ span {
     border-top: solid 2px black;
     text-align: center;
 }
-#page6 .content  {
-    text-align: center;
+#page6 .content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#vapetanks .major {
+     margin: auto;
+    width: 30%;
+    padding: 10px;
+    color: black;
+}
+#vapetanks .main {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    color: black;
+}
+#vapetanks .resa {
+    margin: 0 0 2rem 0;
+   width: 150%;
+    padding: 50px;
+    color: black;
+    display: block;
+}
+#eliquids .major {
     
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    color: black;
 }
 #page1 .carouselExampleControls
 {
@@ -1696,6 +1729,7 @@ span {
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
+            color: black;
 		}
 
 		body.is-article-visible #footer {

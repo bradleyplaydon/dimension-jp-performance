@@ -24,6 +24,7 @@
 			$footer = $('#footer'),
 			$main = $('#main'),
 			$main_articles = $main.children('article');
+            
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
